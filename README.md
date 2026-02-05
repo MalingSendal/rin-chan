@@ -8,7 +8,7 @@
 
 ## 🌸 RinAI: Your Evolving AI Companion
 
-**RinAI** is a memory-augmented, personality-rich AI chatbot and Discord bot. RinAI remembers facts about users, evolves her personality, and adapts her quirks and traits based on your interactions. She supports both a web chat interface and Discord, can generate and receive voice responses, and features a Live2D animated avatar.
+**RinAI** is a memory-augmented, Stoic AI chatbot and Discord bot. RinAI remembers facts about users, evolves her personality, and adapts her quirks and traits based on your interactions. She supports both a web chat interface and Discord, can generate and receive voice responses, and features a Live2D animated avatar.
 
 ## ✨ Key Features
 
@@ -34,7 +34,7 @@
 .
 ├── app/
 │   ├── __init__.py            # Flask app factory
-│   ├── config.py              # Config and system prompt
+│   ├── config.py              # Config and system prompt (not committed)
 │   ├── facts.py               # Fact extraction and memory logic
 │   ├── llm_client.py          # LLM API integration
 │   ├── memory.py              # Long-term memory logic
@@ -43,21 +43,20 @@
 ├── templates/
 │   ├── index.html             # Web chat UI
 │   └── live2d.html            # Live2D avatar interface
-├── appearance/
+├── Appearance/
 │   └── Rin2.png               # Images and avatars
 ├── audio/
-│   └── ...                    # Voice response output
+│   └── ...                    # Voice response output (not committed)
 ├── songs/
-│   └── ...                    # Songs and audio files
-├── discord_bot.py             # Discord bot integration
+│   └── ...                    # Songs and audio files (not committed)
+├── discord_bot.py             # Discord bot integration (not committed)
 ├── main.py                    # App entrypoint
 ├── requirements.txt           # Python dependencies
-├── personality.json           # Persistent personality state
-├── user_facts.json            # User facts and rules
-├── interaction_memory.json    # Last interaction timestamps
-├── chat_memory.csv            # Conversation logs
-├── facts_memory.csv           # Extracted user facts
-├── response.mp3               # Voice response output
+├── personality.json           # Persistent personality state (not committed)
+├── user_facts.json            # User facts and rules (not committed)
+├── interaction_memory.json    # Last interaction timestamps (not committed)
+├── chat_memory.csv            # Conversation logs (not committed)
+├── facts_memory.csv           # Extracted user facts (not committed)
 └── .env                       # Environment variables (not committed)
 ```
 
@@ -68,7 +67,7 @@
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/MalingSendal/rintemo.git
+git clone https://github.com/MalingSendal/rin-chan.git
 cd rintemo
 ```
 
@@ -136,17 +135,11 @@ python discord_bot.py
 
 ---
 
-## 📄 License
-
-This project is **private** and not licensed for public or commercial use.
-
----
-
 ## 💡 Credits
 
-- Created by Rendy and contributors.
+- Created by Ren.
 - Inspired by NeuroAI and memory-augmented agents.
 
 ---
 
-> _"I'm Rin, your evolving AI companion. Let's grow together—one chat at a time!"_
+> _"I'm Rin, your AI companion."_
