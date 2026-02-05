@@ -68,7 +68,7 @@
 
 ```sh
 git clone https://github.com/MalingSendal/rin-chan.git
-cd rintemo
+cd rin-chan
 ```
 
 ### 2. Install Dependencies
