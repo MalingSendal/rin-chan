@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RinAI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.10/dist/pixi.min.js"></script>
+    <script src="/static/live2d/cubismweb/Core/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@latest/dist/cubism4.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            Rin
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            {% for msg in conversation %}
+                <div class="message-container">
+                    <div class="message {% if msg.sender == 'user' %}user-message{% else %}bot-message{% endif %}">
+                        {{ msg.message }}
+                        <div class="message-time">
+                            {{ msg.timestamp }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="input-area">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-button">↑</button>
+        </div>
+    </div>
+
+    <!-- Live2D Container - Changed to canvas element -->
+    <div id="live2d-container">
+        <canvas id="live2d-canvas"></canvas>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

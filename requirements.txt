@@ -1,0 +1,11 @@
+flask
+flask-socketio
+python-dotenv
+sentence-transformers
+scikit-learn
+requests
+discord.py
+gtts
+pytz
+numpy
+pandas
