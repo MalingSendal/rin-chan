@@ -6,8 +6,6 @@
 ![NLP](https://img.shields.io/badge/NLP-SentenceTransformers-green?logo=ai)
 ![License](https://img.shields.io/badge/License-Private-red)
 
-<img src="Appearance/Rin2.png" width="200" align="right" style="border-radius: 12px; margin-left: 20px;">
-
 ## 🌸 RinAI: Your Evolving AI Companion
 
 **RinAI** is a memory-augmented, personality-rich AI chatbot and Discord bot. RinAI remembers facts about users, evolves her personality, and adapts her quirks and traits based on your interactions. She supports both a web chat interface and Discord, can generate and receive voice responses, and features a Live2D animated avatar.
